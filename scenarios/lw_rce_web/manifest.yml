@@ -1,0 +1,13 @@
+---
+# The name of the scenario, alpha-numeric characters only, and underscore-separated
+- name: lw_rce_web
+# The name of the author(s), comma separated
+- author: Rhino Security Labs, Tim Arenz
+# The version of the scenario, where major versions are breaking changes and minor are small fixes.
+- version: 2.0
+# Text displayed to the user when they type "{{ scenario_name }} help"
+- help: |
+    Copy of the rce_web_app scenario but changed to include the Lacework agent on the ec2 instance.
+    Follow the official rce_web_app documentation for guidance.
+# Records the date upon which this scenario was last updated, in MM-DD-YYYY format
+- last-updated: 10-06-2021
